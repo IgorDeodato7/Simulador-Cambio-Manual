@@ -1,0 +1,77 @@
+/* Estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #270ea5);
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    width: 420px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Painel de informações */
+.painel {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    background: linear-gradient(90deg, #3ae082, #fad0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Botões */
+.controles button, .marchaBtn, #btnFreioMao {
+    font-size: 18px;
+    margin: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* Botões padrão */
+.controles button {
+    background: #4a90e2;
+    color: white;
+}
+
+.controles button:hover {
+    background: #357ABD;
+    transform: scale(1.05);
+}
+
+/* Botão de marcha */
+.marchaBtn {
+    background: #3d3d3d;
+    color: white;
+}
+
+.marchaBtn:hover {
+    background: #5a5a5a;
+    transform: scale(1.05);
+}
+
+/* Botão de freio de mão */
+#btnFreioMao {
+    background: #ff0000;
+    color: white;
+}
+
+#btnFreioMao:hover {
+    background: #d81b4e;
+    transform: scale(1.05);
+}
